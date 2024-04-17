@@ -1,7 +1,11 @@
 import React from "react";
 
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  return (
+    <>
+      <span className="fw-bold">Dashboard</span>
+    </>
+  );
 };
 
 export default Dashboard;

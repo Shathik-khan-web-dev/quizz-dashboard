@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "../Pages/Sidebar";
-import "./QuizLayout.css";
 
 const QuizLayout = () => {
   return (
@@ -9,7 +8,7 @@ const QuizLayout = () => {
       <div className="Quiz_Sidebar">
         <Sidebar />
       </div>
-      <div className="Quiz_Content">
+      <div className="Quiz_Content p-3">
         <Outlet />
       </div>
     </div>

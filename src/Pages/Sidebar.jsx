@@ -21,9 +21,9 @@ const Sidebar = () => {
           <NavLink
             key={item.title}
             to={item.path}
-            className="d-flex sidebar_btn  p-2">
+            className="d-flex sidebar_btn p-2">
             {item.icon}
-            <span className="sidebar_text fs-6">{item.title}</span>
+            <span className="sidebar_text">{item.title}</span>
           </NavLink>
         ))}
       </nav>
