@@ -67,8 +67,8 @@ const FrontEndData = [
     ],
   },
   {
-    title: "CSS",
     lessonNumber: 2,
+    title: "CSS",
     lessonPages: "CSS Quiz",
     url: "css",
     backgroundColor: "#2866e9ff",
@@ -149,7 +149,7 @@ const FrontEndData = [
     lessonNumber: 3,
     lessonPages: "Bootstrap Quiz",
     url: "bootstrap",
-    title: "bootstrap",
+    title: "Bootstrap",
     backgroundColor: "#9437e8ff",
     backgroundImage: "bg-groovy",
     table: [
@@ -303,7 +303,7 @@ const FrontEndData = [
     lessonNumber: 4,
     lessonPages: " Javascript Quiz",
     url: "javascript",
-    title: "javascript",
+    title: "Javascript",
     backgroundColor: "#f3a20f",
     backgroundImage: "bg-bamboo",
     table: [

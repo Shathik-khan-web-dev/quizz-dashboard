@@ -1,10 +1,6 @@
 /* Dashboard */
 
-.chart_title {
-  color: #f1d5c7;
-  font-size: 14px;
-}
-
+/* tab_bar */
 .tab_style {
   background-color: transparent;
   color: black;
@@ -26,6 +22,35 @@
   border-bottom: 3px solid red !important;
   border-radius: 0px;
   color: red;
+}
+
+/* Chat box */
+.chart_title {
+  color: #f1d5c7;
+  font-size: 14px;
+}
+
+.quiz_table {
+  background-color: #f3f4f6;
+  border-radius: 10px !important;
+  width: 100% !important;
+}
+
+.quiz_table_body {
+  background-color: #ffffff;
+  color: black;
+}
+
+.table_index {
+  color: black;
+  padding: 0px !important;
+  width: 0.5% !important;
+}
+
+.btn_two {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Leader_boards */

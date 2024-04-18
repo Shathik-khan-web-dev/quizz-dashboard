@@ -78,7 +78,7 @@ const FrontEndData = [
       { topic: "Interactive Git (git add -p / git rebase -i)" },
       { topic: "Git Cherry-Pick" },
       { topic: "Git Bisect" },
-      { topic: "Git Workflows (e.g., Feature Branch Workflow)" },
+      { topic: "Git Workflows (e.g. Feature Branch Workflow)" },
       { topic: "Git Tags and Releases" },
       { topic: "GitHub Pages" },
       { topic: "Git Submodules" },
