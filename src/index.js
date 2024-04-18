@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Layout/QuizLayout.css";
-// import "./Pages/Quiz.css";
+import "./Layout/QuizContent.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
