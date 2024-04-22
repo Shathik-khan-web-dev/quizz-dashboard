@@ -8,7 +8,7 @@ const FrontEndChart = () => {
       <p className="fw-bold py-1">Front-End Chart</p>
 
       {/* FrontEnd Chart */}
-      <div className="gap-4">
+      <div>
         {FrontEndData.map((lesson) => (
           <Lessons key={lesson.url} data={lesson} />
         ))}

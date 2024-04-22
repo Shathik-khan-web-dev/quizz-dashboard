@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { sidebarNavItems } from "../Components/Constant";
 import Logo from "../Assets/Logo.png";
- 
+
 const Sidebar = () => {
   return (
     <aside className="nav_aside">
@@ -12,7 +12,7 @@ const Sidebar = () => {
           <span className="text-danger">A</span>bility
         </span>
         <span className="fw-bold text-decoration-none fs-5 logo_text">
-          <span className="text-danger">C</span>heck 
+          <span className="text-danger">C</span>heck
         </span>
       </div>
 
