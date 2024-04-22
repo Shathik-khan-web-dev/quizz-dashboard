@@ -1,0 +1,172 @@
+/* Backgrounds Start */
+.hero-bg {
+  background-image: url("./Assets/BannerBG/waves.svg"),
+    url("./Assets/BannerBG/endless-clouds.svg");
+  background-size: 105%, 80px;
+  background-position: bottom, top left;
+  background-repeat: no-repeat, repeat;
+}
+
+.bg-clouds {
+  background: url("./Assets/BannerBG/bg-endless-clouds.svg") repeat;
+  background-size: 80px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-curtain {
+  background: url("./Assets/BannerBG/bg-curtain.svg") repeat;
+  background-size: 60px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-circles {
+  background: url("./Assets/BannerBG/bg-circles.svg") repeat;
+  background-size: 60px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-autumn {
+  background: url("./Assets/BannerBG/bg-autumn.svg") repeat;
+  background-size: 80px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-connections {
+  background: url("./Assets/BannerBG/bg-connections.svg") repeat;
+  background-size: 80px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-parkay-floor {
+  background: url("./Assets/BannerBG/bg-parkay-floor.svg") repeat;
+  background-size: 100px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-i-like-food {
+  background: url("./Assets/BannerBG/bg-i-like-food.svg") repeat;
+  background-size: 250px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2));
+}
+
+.bg-groovy {
+  background: url("./Assets/BannerBG/bg-groovy.svg") repeat;
+  background-size: 30px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-signal {
+  background: url("./Assets/BannerBG/bg-signal.svg") repeat;
+  background-size: 100px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+.bg-bathroom-floor {
+  background: url("./Assets/BannerBG/bg-bathroom-floor.svg") repeat;
+  background-size: 100px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2));
+}
+
+.bg-bamboo {
+  background: url("./Assets/BannerBG/bg-bamboo.svg") repeat;
+  background-size: 30px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.07)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.07));
+}
+
+.bg-jigsaw {
+  background: url("./Assets/BannerBG/bg-jigsaw.svg") repeat;
+  background-size: 150px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2));
+}
+
+.bg-leaf {
+  background: url("./Assets/BannerBG/bg-leaf.svg") repeat;
+  background-size: 100px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1)
+  );
+  mask-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}
+
+/* Backgrounds End */
+
+.banner-container-style {
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.banner-bg-style {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}

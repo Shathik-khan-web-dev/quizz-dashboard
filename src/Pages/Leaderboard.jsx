@@ -54,11 +54,12 @@ const Leaderboard = () => {
       <span className="fw-bold">Leaderboards</span>
 
       {/* Banner */}
-      <div className="mt-3 bg-success text-white p-3 rounded-3 mb-3">
-        <div className="px-3">
+      <div className="mt-3 banner-container-style bg-success text-white p-3 rounded-3 mb-3">
+        <div className="px-3 position-relative">
           <h2 className="">Rise to the top!</h2>
           <p className="">Be the best and compete with others.</p>
         </div>
+        <div className="banner-bg-style bg-connections" />
       </div>
 
       {/* Leaderboard table */}

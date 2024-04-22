@@ -31,9 +31,10 @@
 }
 
 .quiz_table {
-  background-color: #f3f4f6;
+  background-color: #f3f4f6 !important;
   border-radius: 10px !important;
   width: 100% !important;
+  z-index: 10 !important;
 }
 
 .quiz_table_body {
@@ -44,7 +45,7 @@
 .table_index {
   color: black;
   padding: 0px !important;
-  width: 0.5% !important;
+  width: 0.5% !important; 
 }
 
 .btn_two {

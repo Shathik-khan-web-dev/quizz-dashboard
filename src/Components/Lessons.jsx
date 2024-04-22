@@ -1,14 +1,20 @@
 import React, { useState } from "react";
+import "../Quiz.css";
 
 const Lessons = ({ data }) => {
   const [displayTable, setDisplayTable] = useState(false);
+
   const boxStyle = {
     backgroundColor: data.backgroundColor,
   };
 
   return (
-    <>
-      <section style={boxStyle} className="rounded-3 p-2 px-3 text-white mb-3">
+    <div
+      style={boxStyle}
+      className="rounded-3 position-relative shadow-lg p-2 px-3
+         text-white mb-3 banner-container-style">
+          
+      <div className="position-relative">
         <p className="mb-2 chart_title pt-1 fw-bold">
           Lesson {data.lessonNumber}
         </p>
@@ -19,7 +25,7 @@ const Lessons = ({ data }) => {
             <p className="chart_title fw-bold">{data.lessonPages}</p>
           </div>
 
-          <div className="mt-4 d-flex gap-3 align-items-center chart_btn">
+          <div className="mt-4 d-flex gap-3 align-items-center chart_btn z-3">
             {/* Start Quiz Button */}
             <button
               className="px-3 py-1 rounded-3
@@ -39,7 +45,7 @@ const Lessons = ({ data }) => {
 
         {/* Lesson Content */}
         {displayTable && (
-          <table className="quiz_table ">
+          <table className="quiz_table position-relative">
             <thead className=" text-black quiz_table_head">
               <tr className="">
                 <th className="p-1 px-3 ">#</th>
@@ -48,15 +54,15 @@ const Lessons = ({ data }) => {
             </thead>
             <tbody className="quiz_table_body">
               {data.table.map((table, index) => (
-                <tr key={`id-${table.meanings}`}>
-                  <td className="border border-1 table_index text-center">{index + 1}</td>
+                <tr key={`id-${index}`}>
+                  <td className="border border-1 table_index text-center">
+                    {index + 1}
+                  </td>
                   <td className="border border-1 ">
                     <div className="">
                       {table.topic &&
                         table.topic.split(",").map((reading) => (
-                          <p
-                            key={`id-${reading}`}
-                            className="m-0 p-1">
+                          <p key={`id-${reading}`} className="m-0 p-1">
                             {reading}
                           </p>
                         ))}
@@ -67,8 +73,9 @@ const Lessons = ({ data }) => {
             </tbody>
           </table>
         )}
-      </section>
-    </>
+      </div>
+      <div className={`banner-bg-style ${data.backgroundImage} `}></div>
+    </div>
   );
 };
 

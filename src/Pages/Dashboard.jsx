@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import {
   AdditionalChart,
   BackEndChart,
@@ -39,8 +39,9 @@ const Dashboard = () => {
       </div>
 
       {/* Banner */}
-      <div className="bg-danger mt-4 rounded-3">
+      <div className="bg-danger banner-container-style mt-4 rounded-3">
         <h3 className="p-3 text-white ">Lets's learn {activeTab}!</h3>
+        <div className="banner-bg-style bg-clouds" />
       </div>
 
       {/* Content */}

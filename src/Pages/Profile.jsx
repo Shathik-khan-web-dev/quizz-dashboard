@@ -19,11 +19,13 @@ const Profile = () => {
       <span className="fw-bold">Profile</span>
 
       {/* Banner */}
-      <div className="mt-3 bg-primary text-white p-3 rounded-3 mb-4">
+      <div className="mt-3 banner-container-style bg-primary text-white p-3 rounded-3 mb-4">
         <div className="px-3">
           <h2 className="">Welcome User!</h2>
           <p className="">Your adventure begins here</p>
         </div>
+        <div className="banner-bg-style bg-parkay-floor" />
+
       </div>
 
       {/* Profile Info */}
