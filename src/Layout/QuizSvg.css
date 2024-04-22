@@ -1,14 +1,14 @@
 /* Backgrounds Start */
 .hero-bg {
-  background-image: url("./Assets/BannerBG/waves.svg"),
-    url("./Assets/BannerBG/endless-clouds.svg");
+  background-image: url("../Assets/BannerBG/waves.svg"),
+    url("../Assets/BannerBG/endless-clouds.svg");
   background-size: 105%, 80px;
   background-position: bottom, top left;
   background-repeat: no-repeat, repeat;
 }
 
 .bg-clouds {
-  background: url("./Assets/BannerBG/bg-endless-clouds.svg") repeat;
+  background: url("../Assets/BannerBG/bg-endless-clouds.svg") repeat;
   background-size: 80px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -19,7 +19,7 @@
 }
 
 .bg-curtain {
-  background: url("./Assets/BannerBG/bg-curtain.svg") repeat;
+  background: url("../Assets/BannerBG/bg-curtain.svg") repeat;
   background-size: 60px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -30,7 +30,7 @@
 }
 
 .bg-circles {
-  background: url("./Assets/BannerBG/bg-circles.svg") repeat;
+  background: url("../Assets/BannerBG/bg-circles.svg") repeat;
   background-size: 60px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -41,7 +41,7 @@
 }
 
 .bg-autumn {
-  background: url("./Assets/BannerBG/bg-autumn.svg") repeat;
+  background: url("../Assets/BannerBG/bg-autumn.svg") repeat;
   background-size: 80px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -52,7 +52,7 @@
 }
 
 .bg-connections {
-  background: url("./Assets/BannerBG/bg-connections.svg") repeat;
+  background: url("../Assets/BannerBG/bg-connections.svg") repeat;
   background-size: 80px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -63,7 +63,7 @@
 }
 
 .bg-parkay-floor {
-  background: url("./Assets/BannerBG/bg-parkay-floor.svg") repeat;
+  background: url("../Assets/BannerBG/bg-parkay-floor.svg") repeat;
   background-size: 100px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -74,7 +74,7 @@
 }
 
 .bg-i-like-food {
-  background: url("./Assets/BannerBG/bg-i-like-food.svg") repeat;
+  background: url("../Assets/BannerBG/bg-i-like-food.svg") repeat;
   background-size: 250px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -85,7 +85,7 @@
 }
 
 .bg-groovy {
-  background: url("./Assets/BannerBG/bg-groovy.svg") repeat;
+  background: url("../Assets/BannerBG/bg-groovy.svg") repeat;
   background-size: 30px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -96,7 +96,7 @@
 }
 
 .bg-signal {
-  background: url("./Assets/BannerBG/bg-signal.svg") repeat;
+  background: url("../Assets/BannerBG/bg-signal.svg") repeat;
   background-size: 100px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -107,7 +107,7 @@
 }
 
 .bg-bathroom-floor {
-  background: url("./Assets/BannerBG/bg-bathroom-floor.svg") repeat;
+  background: url("../Assets/BannerBG/bg-bathroom-floor.svg") repeat;
   background-size: 100px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -118,7 +118,7 @@
 }
 
 .bg-bamboo {
-  background: url("./Assets/BannerBG/bg-bamboo.svg") repeat;
+  background: url("../Assets/BannerBG/bg-bamboo.svg") repeat;
   background-size: 30px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -129,7 +129,7 @@
 }
 
 .bg-jigsaw {
-  background: url("./Assets/BannerBG/bg-jigsaw.svg") repeat;
+  background: url("../Assets/BannerBG/bg-jigsaw.svg") repeat;
   background-size: 150px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -140,7 +140,7 @@
 }
 
 .bg-leaf {
-  background: url("./Assets/BannerBG/bg-leaf.svg") repeat;
+  background: url("../Assets/BannerBG/bg-leaf.svg") repeat;
   background-size: 100px;
   -webkit-mask-image: linear-gradient(
     90deg,

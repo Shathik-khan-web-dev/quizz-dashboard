@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Quiz.css";
+import "../Layout/QuizSvg.css";
 
 const Lessons = ({ data }) => {
   const [displayTable, setDisplayTable] = useState(false);
