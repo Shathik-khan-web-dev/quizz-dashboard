@@ -56,17 +56,6 @@
 
 /* Leader_boards */
 
-.ranking_index {
-  background-color: #fde68a;
-  display: flex;
-  border: 1px solid #fbc330;
-  color: orange;
-  border-radius: 50%;
-  margin-top: 1.4rem;
-  height: 1.8rem;
-  padding: 0.1rem 0.5rem;
-}
-
 .ranking_uppercase {
   margin-top: 0.5rem;
   padding: 0.4rem 0.8rem;

@@ -7,7 +7,7 @@ const Profile = () => {
     username: "abilitycoding",
     email: "abilitycoding.edu@gmail.com",
     createdAt: "February 27, 2024",
-    experience: 0,
+    experience: 10,
     __typename: "User",
   };
 
@@ -43,7 +43,7 @@ const Profile = () => {
       <div className="shadow rounded-3 gap-4 p-3">
         <h6 className="fw-bold">Statistics</h6>
 
-        <div className="pt-3">
+        <div className="pt-3 d-flex gap-2">
           <h5 className="text-secondary">Total XP:</h5>
           <h5 className="fw-bold">{user.experience}</h5>
         </div>

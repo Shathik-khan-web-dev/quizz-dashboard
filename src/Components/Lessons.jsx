@@ -13,7 +13,6 @@ const Lessons = ({ data }) => {
       style={boxStyle}
       className="rounded-3 position-relative shadow-lg p-2 px-3
          text-white mb-3 banner-container-style">
-          
       <div className="position-relative">
         <p className="mb-2 chart_title pt-1 fw-bold">
           Lesson {data.lessonNumber}
@@ -27,6 +26,29 @@ const Lessons = ({ data }) => {
 
           <div className="mt-4 d-flex gap-3 align-items-center chart_btn z-3">
             {/* Start Quiz Button */}
+
+            {/* 
+             {admin || visitor || student || faculty ? (
+              <Link to={`/quiz/${data.url}`}>
+                <button
+                  className="px-3 py-1 rounded-3
+               bg-white border-white fw-bold btn_one text-nowrap w-100"
+                >
+                  Start Quiz
+                </button>
+              </Link>
+            ) : (
+              <Link to={`/lms/login`}>
+                <button
+                  className="px-3 py-1 rounded-3
+               bg-white border-white fw-bold btn_one text-nowrap w-100"
+                >
+                  Start Quiz
+                </button>
+              </Link>
+            )}
+            */}
+
             <button
               className="px-3 py-1 rounded-3
                bg-white border-white fw-bold btn_one">

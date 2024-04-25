@@ -6,20 +6,19 @@
   background-color: white;
   width: 15%;
   height: 100vh;
+  padding: 10px;
   border-right: 1px solid #d1d5dbff;
 }
 
 .sidebar_nav {
   display: flex !important;
-  justify-items: center !important;
-  align-items: center;
 }
 
 .sidebar_btn {
   display: flex;
   align-items: center;
   padding: 20px;
-  width: 11rem;
+  width: auto;
   text-decoration: none !important;
   border-radius: 10px;
 }
@@ -46,15 +45,15 @@
   overflow-y: scroll;
 }
 
-.active {
+.quiz_active {
   background-color: #fee2e2;
   border: 0.1px solid #fca5a5ff;
   color: red !important;
 }
-.active > .sidebar_text {
+.quiz_active > .sidebar_text {
   color: red !important;
 }
-.active > .sidebar_icon {
+.quiz_active > .sidebar_icon {
   color: red !important;
 }
 
@@ -117,7 +116,8 @@
     flex-direction: row;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+
   }
 
   .nav_aside {

@@ -21,7 +21,10 @@ const Sidebar = () => {
           <NavLink
             key={item.title}
             to={item.path}
-            className="d-flex sidebar_btn p-1 py-2 px-3 mb-2">
+            className={({ isActive }) =>
+              (isActive ? "quiz_active" : "quiz_inactive") +
+              " d-flex sidebar_btn p-1 py-2 px-3 mb-2"
+            }>
             {item.icon}
             <span className="sidebar_text">{item.title}</span>
           </NavLink>

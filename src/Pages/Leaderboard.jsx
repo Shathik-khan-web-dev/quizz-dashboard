@@ -1,4 +1,5 @@
 import React from "react";
+import Medal from "./Medal";
 
 const Leaderboard = () => {
   // get the user data from the server
@@ -31,24 +32,91 @@ const Leaderboard = () => {
       experience: 10,
       __typename: "User",
     },
+    {
+      _id: "65dd68d4cec6bbd9b52397e5",
+      username: "User_2",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 200,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b51397e5",
+      username: "User_3",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 10,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b52397e5",
+      username: "User_2",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 200,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b51397e5",
+      username: "User_3",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 10,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b52397e5",
+      username: "User_2",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 200,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b51397e5",
+      username: "User_3",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 10,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b52397e5",
+      username: "User_2",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 200,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b51397e5",
+      username: "User_3",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 10,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b52397e5",
+      username: "User_2",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 200,
+      __typename: "User",
+    },
+    {
+      _id: "65dd68d4cec6bbd9b51397e5",
+      username: "User_3",
+      email: "abilitycoding.edu@gmail.com",
+      createdAt: "February 27, 2024",
+      experience: 10,
+      __typename: "User",
+    },
   ];
 
   // sort the users by experience
   const sortedUsers = [...users].sort((a, b) => b.experience - a.experience);
 
-  // style the first three rankings
-  const rank = (index) => {
-    switch (index) {
-      case 0:
-        return "ranking-first-style";
-      case 1:
-        return "ranking-second-style";
-      case 2:
-        return "ranking-third-style";
-      default:
-        return "";
-    }
-  };
   return (
     <>
       <span className="fw-bold">Leaderboards</span>
@@ -68,10 +136,8 @@ const Leaderboard = () => {
 
         <div className="d-flex flex-column pt-3">
           {sortedUsers.map((user, index) => (
-            <div key={`id-${user._id}`} className="d-flex  gap-3  mb-3 mx-3">
-              <span className={`ranking_index ${rank(index)}`}>
-                {index + 1}
-              </span>
+            <div key={`id-${index}`} className="d-flex  gap-3  mb-3 mx-3">
+              <Medal rank={index + 1} />
 
               <div className="pt-2">
                 <div className="bg-danger rounded-circle text-white fw-bold fs-5 ranking_uppercase">
